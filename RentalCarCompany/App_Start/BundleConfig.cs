@@ -23,7 +23,7 @@ namespace RentalCarCompany
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap_solar.css",
                       "~/Content/site.css"));
         }
     }
