@@ -105,3 +105,8 @@ Y:\Udemy\ASP.NET MVC\RentalCarCompany\RentalCarCompany\obj\Debug\RentalCarCompan
 Y:\Udemy\ASP.NET MVC\RentalCarCompany\RentalCarCompany\obj\Debug\RentalCarCompany.csproj.CopyComplete
 Y:\Udemy\ASP.NET MVC\RentalCarCompany\RentalCarCompany\obj\Debug\RentalCarCompany.dll
 Y:\Udemy\ASP.NET MVC\RentalCarCompany\RentalCarCompany\obj\Debug\RentalCarCompany.pdb
+Y:\Udemy\ASP.NET MVC\RentalCarCompany\RentalCarCompany\obj\Debug\RentalCarCompany.Migrations.InitialModel.resources
+Y:\Udemy\ASP.NET MVC\RentalCarCompany\RentalCarCompany\obj\Debug\RentalCarCompany.csproj.GenerateResource.cache
+Y:\Udemy\ASP.NET MVC\RentalCarCompany\RentalCarCompany\obj\Debug\RentalCarCompany.Migrations.updatedMembershipTierModel.resources
+Y:\Udemy\ASP.NET MVC\RentalCarCompany\RentalCarCompany\obj\Debug\RentalCarCompany.Migrations.PopulateCarTypes.resources
+Y:\Udemy\ASP.NET MVC\RentalCarCompany\RentalCarCompany\obj\Debug\RentalCarCompany.Migrations.PopulateMembershipTiers.resources

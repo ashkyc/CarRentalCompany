@@ -20,6 +20,12 @@ namespace RentalCarCompany.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<MembershipTier> MembershipTiers { get; set; }
+        public DbSet<Car> Cars { get; set; }
+        public DbSet<CarType> CarTypes { get; set; }
+
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {

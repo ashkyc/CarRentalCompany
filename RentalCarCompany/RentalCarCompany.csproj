@@ -173,9 +173,30 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001142304248_InitialModel.cs" />
+    <Compile Include="Migrations\202001142304248_InitialModel.Designer.cs">
+      <DependentUpon>202001142304248_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001142315048_updatedMembershipTierModel.cs" />
+    <Compile Include="Migrations\202001142315048_updatedMembershipTierModel.Designer.cs">
+      <DependentUpon>202001142315048_updatedMembershipTierModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001142316034_PopulateCarTypes.cs" />
+    <Compile Include="Migrations\202001142316034_PopulateCarTypes.Designer.cs">
+      <DependentUpon>202001142316034_PopulateCarTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001142323225_PopulateMembershipTiers.cs" />
+    <Compile Include="Migrations\202001142323225_PopulateMembershipTiers.Designer.cs">
+      <DependentUpon>202001142323225_PopulateMembershipTiers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Car.cs" />
+    <Compile Include="Models\CarType.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipTier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -253,6 +274,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202001142304248_InitialModel.resx">
+      <DependentUpon>202001142304248_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001142315048_updatedMembershipTierModel.resx">
+      <DependentUpon>202001142315048_updatedMembershipTierModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001142316034_PopulateCarTypes.resx">
+      <DependentUpon>202001142316034_PopulateCarTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001142323225_PopulateMembershipTiers.resx">
+      <DependentUpon>202001142323225_PopulateMembershipTiers.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
